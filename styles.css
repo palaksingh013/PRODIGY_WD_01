@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: rgb(218, 131, 181);
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-item a:hover {
+  background-color: rgb(61, 48, 58);
+  color: #333;
+  border-radius: 5px;
+}
+
+.content {
+  padding-top: 60px; 
+}
+
+section {
+  padding: 60px 20px;
+}
+
+#home {
+  background-color: #ca4646;
+}
+#about {
+  background-color: #a55c5c;
+}
+#services {
+  background-color: #a88989;
+}
+#contact {
+  background-color: #da9d9d;
+}
